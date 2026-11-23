@@ -1,0 +1,24 @@
+{
+  "name": "grocery-telegram-adapter",
+  "version": "0.1.0",
+  "description": "Grocery List Manager adapter to the Telegram Bot API",
+  "homepage": "https://github.com/SDEgrocerylistmanager/grocery-telegram-adapter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDEgrocerylistmanager/grocery-telegram-adapter.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.2"
+  }
+}
