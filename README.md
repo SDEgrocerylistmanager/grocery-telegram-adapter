@@ -64,6 +64,10 @@ npm test         # node --test, Telegram is faked
 
 Run one test: `node --test --test-name-pattern="<name>" test/app.test.js`.
 
+CI runs the tests on every push and pull request. On `master`, if they pass, the image is
+published to `ghcr.io/sdegrocerylistmanager/grocery-telegram-adapter:latest` (and `:<commit sha>`), for
+`linux/amd64` and `linux/arm64`.
+
 ## Authors
 - Palmieri Filippo @FilizZPalm
 - Radice Lorenzo @radix54
