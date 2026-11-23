@@ -1,4 +1,14 @@
+# Only what the service needs at runtime goes in the image
 node_modules
-.env
-.git
 test
+.env
+.env.*
+.git
+.github
+.githooks
+.gitignore
+.dockerignore
+Dockerfile
+Makefile
+*.md
+!LICENSE.md
